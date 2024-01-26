@@ -7,4 +7,14 @@ fn main() {
     // loop multiplicand 0  - 12
     // nested loop multiplicator 0 - 12
     // print "multiplicand X multiplicator = product"
+    for multiplicand in 0..13 {
+        for multiplicator in 0..13 {
+            println!(
+                "{} X {} = {}",
+                multiplicand,
+                multiplicator,
+                multiplicand * multiplicator
+            );
+        }
+    }
 }
