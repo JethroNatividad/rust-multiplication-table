@@ -4,5 +4,7 @@
 // Ouputs: show the multiplication table
 
 fn main() {
-    println!("Hello, world!");
+    // loop multiplicand 0  - 12
+    // nested loop multiplicator 0 - 12
+    // print "multiplicand X multiplicator = product"
 }
